@@ -1,0 +1,45 @@
+TUTORIAL DE COMPILAÇÃO – TRABALHO DE REDES
+
+Autores: Nicolas Sampaio; Harrison Sanches
+
+
+Conteúdo do arquivo ZIP.
+O arquivo zip contém cinco arquivos, todos essenciais para o funcionamento do programa.
+Os arquivos contidos nele são:
+- Um arquivo “cliente.c”
+- Um arquivo “servidor.c”
+- Um “tutorial.txt”
+
+Localizando os arquivos no terminal.
+1º Passo: Vá até a pasta aonde extraiu os arquivos.
+- Ex:  /home/harrison/Downloads
+
+2º Passo: Clique com o botão direito e selecione a opção “Abrir no terminal”
+Após localizar a pasta no terminal, iremos compilar os arquivos para execução dos nossos programas.
+
+Compilando e executando o servidor.
+Para bom funcionamento do programa, iremos compilar e executar primeiro o programa do arquivo “servidor.c”.
+Assim, agora que já sabemos localizar os arquivos no terminal, vamos inicializar a execução do nosso servidor. Vamos aos passos para inicialização:
+
+1º Passo: Abra o terminal e localize a pasta aonde está o arquivo “servidor.c”, como fizemos anteriormente.
+
+2º Passo: No terminal, digite: gcc -o server servidor.c. Após digitar isso, um arquivo “server” será criado na mesma pasta do arquivo “servidor.c”
+
+3º Passo: Agora já temos nosso programa compilado e iremos executá-lo. Ainda no terminal, digite: “./server”, sem as aspas. Com isso, já teremos nosso servidor executando e pronto para fazer todo o controle.
+
+
+
+Compilando e executando o programa Cliente.
+
+Agora que temos nosso servidor em execução, iremos executar o arquivo cliente.
+Importante: Vamos precisar abrir um outro terminal para execução do programa cliente. Para isso, basta clicar novamente em abrir terminal e outro terminal será aberto. Vamos aos passos para compilação e inicialização do programa:
+
+1º Passo: Abra o terminal e localize a pasta aonde está o arquivo “cliente.c”, como fizemos anteriormente.
+
+2º passo: No terminal, digite: gcc -o cliente cliente.c. Após digitar isso, um arquivo “cliente” será criado na mesma pasta do arquivo “cliente.c”
+
+3º passo: Execute o cliente com o comando no terminal ./cliente
+
+
+
+

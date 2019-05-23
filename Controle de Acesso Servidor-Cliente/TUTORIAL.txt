@@ -1,0 +1,56 @@
+TUTORIAL DE COMPILAÇÃO – TRABALHO DE REDES
+
+Autores: Nicolas Sampaio; Harrison Sanches
+
+
+Conteúdo do arquivo ZIP.
+O arquivo zip contém cinco arquivos, todos essenciais para o funcionamento do programa.
+Os arquivos contidos nele são:
+- Um arquivo “cliente.c”
+- Um arquivo “servidor.c”
+- Um arquivo “credenciais.txt”
+- Um arquivo “registro.txt”
+- Um “tutorial.txt”
+
+Localizando os arquivos no terminal.
+1º Passo: Vá até a pasta aonde extraiu os arquivos.
+- Ex:  /home/harrison/Downloads
+
+2º Passo: Clique com o botão direito e selecione a opção “Abrir no terminal”
+Após localizar a pasta no terminal, iremos compilar os arquivos para execução dos nossos programas.
+
+Compilando e executando o servidor.
+Para bom funcionamento do programa, iremos compilar e executar primeiro o programa do arquivo “servidor.c”.
+Assim, agora que já sabemos localizar os arquivos no terminal, vamos inicializar a execução do nosso servidor. Vamos aos passos para inicialização:
+
+1º Passo: Abra o terminal e localize a pasta aonde está o arquivo “servidor.c”, como fizemos anteriormente.
+
+2º Passo: No terminal, digite: gcc -o server servidor.c. Após digitar isso, um arquivo “server” será criado na mesma pasta do arquivo “servidor.c”
+
+3º Passo: Agora já temos nosso programa compilado e iremos executá-lo. Ainda no terminal, digite: “./server”, sem as aspas. Com isso, já teremos nosso servidor executando e pronto para fazer todo o controle.
+
+
+
+Compilando e executando o programa Cliente.
+
+Agora que temos nosso servidor em execução, iremos executar o arquivo cliente.
+Importante: Vamos precisar abrir um outro terminal para execução do programa cliente. Para isso, basta clicar novamente em abrir terminal e outro terminal será aberto. Vamos aos passos para compilação e inicialização do programa:
+
+1º Passo: Abra o terminal e localize a pasta aonde está o arquivo “cliente.c”, como fizemos anteriormente.
+
+2º passo: No terminal, digite: gcc -o cliente cliente.c. Após digitar isso, um arquivo “cliente” será criado na mesma pasta do arquivo “cliente.c”
+
+3º passo: Agora que já temos nosso programa cliente compilado, digite no terminal:./cliente [nível porta (int)], onde nível da porta é um inteiro para verificação de acesso, ou seja, o número da porta que deseja acessar. Pronto, após isso já temos nosso programa cliente em execução.
+
+- Inserindo as informações após execução do programa cliente
+Após a execução do programa cliente juntamente com a informação da porta que deseja acessar, o programa cliente perguntará qual é o código de acesso do cliente para aquela porta.
+Insira o código do cliente que deseja ter acesso.
+
+Obs: O programa cliente pode ser aberto quantas vezes necessário forem, em conjunto com vários outros programas cliente, para tentativas de entrada nas portas.
+
+
+Visualizando os arquivos de registro.
+Para visualizar as tentativas de acesso do programa cliente a cada porta, faça os seguintes passos:
+1º Passo: Vá até a pasta aonde extraiu os arquivos.
+2º Passo: Abra o arquivo “registro.txt”
+
